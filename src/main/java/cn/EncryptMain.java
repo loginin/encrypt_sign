@@ -18,8 +18,10 @@ import java.util.stream.Collectors;
 
 public class EncryptMain {
 
+    //修改为分配的key和url
     static String key = "1160ace19fa44bc8857a2f20c885fcd9";
     static String url = "http://hello.world/a.do";
+    
     static HttpClient client = HttpClients.createDefault();
 
     public static void main(String[] args) throws IOException {
